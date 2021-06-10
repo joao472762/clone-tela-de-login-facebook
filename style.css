@@ -119,8 +119,10 @@ a{
     #input{padding: 8px;}
     #img2{margin: 4px 0;}
 }
-@media screen and(max-width:400px) {
-    #login{width: 92%;}
+@media screen and (max-width:400px) {
+    #login{
+        width: 92%;
+    }
     
 }
-    
+
