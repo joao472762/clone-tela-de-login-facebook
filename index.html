@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>facebook</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="facicon.io.png" type="image/x-icon">
 </head>
 <body>
     <main id="perfil">
@@ -14,19 +15,22 @@
             <h1>Longins recentes</h1>
             <p>clique na sua foto ou adicione uma conta</p>
             <div class="img">
-                <img src="imagens/add_face.png" alt="adicionar uma conta">
+                <img src="imagens/add_face.png" alt="adicionar uma conta" id="img2">
             </div>
         </section>
     </main>
     <main id="login">
         <form action="">
-            <input type="email" name="gmail" id="gmail" placeholder="Email ou telefone">
-            <input type="password" id="senha" placeholder="Senha">
-            <input type="button" value="Entrar" id='entrar'>
-            <p>esqueceu a senha?</p>
+            <input type="email" name="gmail" id="gmail" placeholder="Email ou telefone" checked>
+            <input type="password" id="senha" placeholder="Senha" checked>
+            <input type="submit" value="Entrar" id='entrar'>
+            <a href="#" target="_blank" rel="next" id="esqueceu">esqueceu a senha?</a>
             <div id="linha"></div>
             <input type="button" value="criar nova conta" id="criar">
         </form>
+        <p>
+            <a href="#"><b>Criar uma Página</b></a> para uma celebridade, banda ou empresa
+        </p>
     </main>
 </body>
 </html>
